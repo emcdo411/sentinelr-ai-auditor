@@ -44,7 +44,7 @@ It’s built to help:
   
 
 
-📚 Installed Packages (R)
+📚 Installed Packages
 
   
     
@@ -73,8 +73,8 @@ Today’s systems are complex. It’s not enough to just run diagnostic commands
 
 With SentinelR:
 
-IT admins can audit performance and security without 3rd-party tools  
-Business users can see what’s running under the hood  
+IT admins can audit performance and security without 3rd-party tools
+Business users can see what’s running under the hood
 Developers and analysts can expand it with AI (e.g., GPT alerts or auto-fixes)
 
 This project can scale into a DevOps monitoring tool, security scanner, or intelligent assistant.
@@ -219,7 +219,7 @@ shinyApp(ui = ui, server = server)
 
 📁 File Structure
 sentinelr-ai-auditor/
-├── powershall/
+├── powershell/
 │   └── sentinel-audit.ps1
 ├── R/
 │   └── app.R
@@ -228,7 +228,7 @@ sentinelr-ai-auditor/
 ├── README.md
 
 📝 UTF-8 Compatibility Fix
-PowerShell's default file output uses UTF-16 encoding, which causes errors when loading data into R.To resolve this, the script explicitly writes files using UTF-8 encoding:
+PowerShell's default file output uses UTF-16 encoding, which causes errors when loading data into R. To resolve this, the script explicitly writes files using UTF-8 encoding:
 [System.IO.File]::WriteAllText($outputFile, $json, [System.Text.Encoding]::UTF8)
 
 This ensures compatibility with R’s jsonlite::fromJSON() and avoids parsing failures.
@@ -244,4 +244,3 @@ flowchart LR
     C -->|Commit| D[Commits]
     D -->|Push to Fork| E[Pull Request]
     E -->|Merge| F[Original Repo: main]
-
