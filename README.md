@@ -45,19 +45,25 @@ It’s built to help:
 
 ## 📦 Tech Stack
 
-* **PowerShell** – for system-level data extraction
-* **R** – for transforming and analyzing the data
-* **RShiny** – for live dashboard rendering
-* **JSON** – for moving structured data between layers
+![PowerShell](https://img.shields.io/badge/PowerShell-0078D4?logo=powershell\&logoColor=white)
+
+![R](https://img.shields.io/badge/R-276DC3?logo=r\&logoColor=white)
+
+![RShiny](https://img.shields.io/badge/Shiny%20R-20232A?logo=r\&logoColor=white)
+
+![JSON](https://img.shields.io/badge/JSON-000000?logo=json\&logoColor=white)
 
 ---
 
 ## 📚 Installed Packages
 
-* `jsonlite` – parse PowerShell JSON output
-* `DT` – render interactive tables
-* `bslib` – style dashboard with Bootstrap 5
-* `shiny` – serve live dashboard app
+![jsonlite](https://img.shields.io/badge/jsonlite-lightgrey)
+
+![DT](https://img.shields.io/badge/DT-Interactive-lightblue)
+
+![bslib](https://img.shields.io/badge/bslib-Themes-darkgreen)
+
+![shiny](https://img.shields.io/badge/shiny-WebApp-purple)
 
 ---
 
